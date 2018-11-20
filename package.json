@@ -1,0 +1,24 @@
+{
+  "name": "traineeteamdesarrollo1",
+  "version": "1.0.0",
+  "description": "Proyecto 1 Trainee Team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarbritez/traineeTeamDesarrollo1.git"
+  },
+  "author": "Edgar Fernando Britez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgarbritez/traineeTeamDesarrollo1/issues"
+  },
+  "homepage": "https://github.com/edgarbritez/traineeTeamDesarrollo1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

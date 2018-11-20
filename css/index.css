@@ -1,0 +1,186 @@
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+section {
+  padding-top: 5rem;
+  height: 600px;
+  width: 80%;
+  margin: auto; }
+
+.navbar {
+  background: #374144;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .navbar .navbar-inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+  .navbar ul {
+    display: flex;
+    justify-content: space-between; }
+  .navbar a {
+    color: #2C2C27;
+    font-weight: 600; }
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between; }
+
+.navbar-list {
+  flex-direction: column;
+  justify-content: center; }
+
+.navbar ul {
+  margin: 0;
+  padding: 0; }
+  .navbar ul li {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    list-style-type: none; }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white; }
+
+.navbar-brand a {
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  list-style-type: none;
+  color: #fed136; }
+
+#welcome {
+  background-image: url(https://images.pexels.com/photos/104842/bmw-vehicle-ride-bike-104842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem; }
+  #welcome .greating-box {
+    background: #374144;
+    opacity: .8;
+    width: 80%; }
+    #welcome .greating-box .greating-lower, #welcome .greating-box .greating-upper {
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      font-weight: 600;
+      padding: 2rem; }
+    #welcome .greating-box .greating-lower {
+      font-size: 2rem; }
+    #welcome .greating-box .greating-upper {
+      font-size: 3rem; }
+    #welcome .greating-box .greating-tell-me {
+      display: flex;
+      justify-content: center;
+      padding: 2rem; }
+      #welcome .greating-box .greating-tell-me button {
+        padding: 1rem;
+        background: #fed136;
+        border: none;
+        color: white; }
+
+#nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #nosotros .about-container {
+    display: flex; }
+    #nosotros .about-container div {
+      width: 50%;
+      padding: 2rem; }
+      #nosotros .about-container div h3 {
+        text-align: center; }
+      #nosotros .about-container div img {
+        width: 100%;
+        margin-top: 1rem; }
+
+#motos h2 {
+  text-align: center; }
+
+#motos .bikes-container {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap; }
+  #motos .bikes-container .bike-card {
+    overflow: hidden; }
+
+#equipo .team-container {
+  display: flex; }
+  #equipo .team-container .team-card .team-image {
+    overflow: hidden !important;
+    height: 175px; }
+
+#equipo h2 {
+  text-align: center; }
+
+#contacto {
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/1416169/pexels-photo-1416169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #contacto .contact-container {
+    display: flex;
+    justify-content: center;
+    width: 80%; }
+    #contacto .contact-container form {
+      display: flex;
+      width: 100%; }
+      #contacto .contact-container form div {
+        margin: 1rem;
+        width: 50%; }
+      #contacto .contact-container form input, #contacto .contact-container form textarea {
+        width: 95%;
+        opacity: .7; }
+      #contacto .contact-container form .single-input input {
+        padding: 1rem;
+        margin-bottom: 1.5rem; }
+      #contacto .contact-container form .comment textarea {
+        padding: 1rem; }
+
+.btn {
+  padding: 1rem;
+  background: #fed136;
+  border: none;
+  color: white; }
+
+.card {
+  width: 30%;
+  height: 175px;
+  margin: 1rem; }
+  .card img {
+    width: 100%; }
+
+.team-card .team-image {
+  background: yellow; }
+
+.team-card .team-info {
+  text-align: center; }
+  .team-card .team-info h4 {
+    margin-bottom: 0; }
+
+.team-card .social {
+  display: flex;
+  justify-content: center; }
+  .team-card .social i {
+    margin: 1rem;
+    cursor: pointer; }

@@ -1,29 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Desarrollo 1</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
     
     <main class="main-container">
         <nav class="navbar">
-            <div class="navbar-brand">
-                <a href="#welcome">Bricode</a>
-            </div>
-            <div class="navbar-list">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
+            <div class="navbar-inner">
+                <div class="navbar-brand">
+                    <a href="#welcome">Chainsless</a>
+                </div>
+                <div class="navbar-list">
+                    <ul>
+                        <li><a href="#nosotros">NOSOTROS</a></li>
+                        <li><a href="#motos">MOTOS</a></li>
+                        <li><a href="#equipo">EQUIPO</a></li>
+                        <li><a href="#contacto">CONTACTO</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
+        <header id="welcome" class="welcome-image">
+            <div class="greating-box">
+                <div class="greating-lower">
+                    Motos Custom, Bienvenidos!
+                </div>
+                <div class="greating-upper">
+                    VOS SOÑÁ, NOSOTROS LO HACEMOS REALIDAD
+                </div>
+                <div class="greating-tell-me">
+                    <button #about>CONTAMÉ MÁS!</button>
+                </div>
+            </div>
+        </header>
 
+        <section id="nosotros" class="about">
+            <div class="about-container">
+                <div class="about-left">
+                    <h3>Nuestro Taller</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem excepturi ex animi rem recusandae ratione, dolorem dicta. Blanditiis illo, eaque quam autem quibusdam, laborum nam, tempore praesentium omnis mollitia rem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptatem, quo tempora non sunt deleniti labore, fuga voluptas porro magnam ipsam similique aut autem laborum quia adipisci eaque, error reiciendis.</p>
+                </div>
+                <div class="about rigth">
+                    <img src="./images/about-image.jpg" alt="Fotografia de un mecanico de motos">
+                </div>
+            </div>
+        </section>
+
+        <section id="motos" class="bikes">
+            <h2>Nuestros Increible Motos</h2>
+            <div class="bikes-container">
+                <div class="card bike-card">
+                    <img src="./images/bike_1.jpg" alt="bike 1">
+                </div>
+                <div class="card bike-card">
+                    <img src="./images/bike_2.jpg" alt="bike 2">
+                </div>
+                <div class="card bike-card">
+                    <img src="./images/bike_3.jpg" alt="bike 3">
+                </div>
+                <div class="card bike-card">
+                    <img src="./images/bike_4.jpg" alt="bike 4">
+                </div>
+                <div class="card bike-card">
+                    <img src="./images/bike_5.jpg" alt="bike 5">
+                </div>
+                <div class="card bike-card">
+                    <img src="./images/bike_6.jpg" alt="bike 6">
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo" class="team">
+            <h2>Nuestros Increible Equipo</h2>
+            <div class="team-container">
+                
+                <div class="card team-card">
+                    <div class="team-image">
+                        <img src="./images/designer.jpg" alt="bike 1">
+                    </div>
+                    <div class="team-info">
+                        <h4>Start Lord</h4>
+                        <span>Diseñador</span>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="card team-card">
+                    <div class="team-image">
+                        <img src="./images/mechanic.jpeg" alt="bike 1">
+                    </div>
+                    <div class="team-info">
+                        <h4>Yondu</h4>
+                        <span>Mecánico</span>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="card team-card">
+                    <div class="team-image">
+                        <img src="./images/seller.jpg" alt="bike 1">
+                    </div>
+                    <div class="team-info">
+                        <h4>Groot</h4>
+                        <span>Ventas</span>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="contacto" class="contact">
+            <h3>Que No Se Corte!</h3>
+            <div class="contact-container">
+                <form>
+                    <div class="single-input">
+                        <input type="text" placeholder="Nombre">
+                        <br>
+                        <input type="email" placeholder="correo">
+                        <br>
+                        <input type="text" placeholder="telefono">
+                    </div>
+                    <div class="comment">
+                        <textarea id="comment" cols="30" rows="10" placeholder="Dejanos tu comentario"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button class="btn">Enviar</button>
+        </section>
     
     </main>
 
